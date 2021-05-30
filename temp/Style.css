@@ -1,0 +1,97 @@
+body{
+	font-family:arial;	
+	background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(s7ueqwtw6q241.jpg) ;
+	background-size:cover;	
+}
+
+.login{	
+	background:none;
+	color : white;
+	border-radius: 15px;
+	padding:8px 50px 8px 50px;
+	margin:10px 0;	
+	width:280px;
+	position: absolute;
+	top :50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+
+.login h1{
+	float:left;
+	text-align:left;
+	font-size:40px;
+	border-bottom: 5px solid rgb(111, 0, 255);
+	margin-bottom : 20px;
+	padding:5px 0;	
+}
+
+.signup{
+    background-color:rgb(49, 49, 49);
+	color :white;
+	border-radius: 15px;	
+	padding:40px;
+	width:400px;
+	position: absolute;
+	top :50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+
+.signup h1{
+	font-size:40px;
+	border-bottom: 5px solid rgb(111, 0, 255);
+		margin-bottom : 20px;
+	padding:0px 0px;
+}
+
+.signup a{
+	color:skyblue;
+}
+
+.checkbox{
+	margin:20px 10px 10px 0px
+}
+
+.textbox{
+
+	width:100%;
+	overflow:hidden;
+	font-size:20px;
+	padding:5px 0;
+	margin:10px 0;
+	border-bottom: 2px solid rgb(111, 0, 255);
+	color:white;
+	
+}
+
+.textbox i{
+margin-left: 8px 0;
+padding-left:8px 0;
+}
+
+.textbox input{
+        width:100%;
+	border:none;
+	background:none;
+	outline:none;
+	font-size:18px;
+	color:white;
+}
+
+.button {
+  border:none;
+  background-color:rgb(111, 0, 255);
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 15px;
+  margin:8px;
+  color:white;
+  cursor: pointer;
+}
+
+
+#alert {
+	color :red;
+}
+
